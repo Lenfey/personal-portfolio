@@ -89,23 +89,23 @@ import {
 
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
-export const resumeLink = "https://drive.google.com/file/d/1vkxyMDB5_KpMwt4QXFgT2aqdRizr8Czh/view?usp=sharing";
-export const repoLink = "https://github.com/mittal-parth/personal-portfolio";
+export const resumeLink = "";
+export const repoLink = "";
 
-export const callToAction = "https://www.linkedin.com/in/mittal-parth";
+export const callToAction = "https://www.linkedin.com/in/matthiasfellerch/";
 
 export const navLinks = [
   {
     id: "skills",
-    title: "Skills & Experience",
+    title: "Compétences & Expériences",
   },
   {
     id: "education",
-    title: "Education",
+    title: "Formations",
   },
   {
     id: "achievements",
-    title: "Achievements",
+    title: "Certifications",
   },
   {
     id: "projects",
@@ -121,7 +121,7 @@ export const navLinks = [
   },
   {
     id: "contactMe",
-    title: "Contact Me",
+    title: "Me contacter",
   },
 ];
 
