@@ -439,7 +439,7 @@ export const projects = [
 
 // Add links to blogs here
 export const blogPosts = [
-  {
+/*   {
     id: "post-1",
     title: "Blog Post 01 - Title",
     link: "#",
@@ -501,7 +501,7 @@ export const blogPosts = [
         name: "tag 03"
       },
     ],
-  },
+  }, */
 ];
 
 // Highlight your GitHub stats like - Organisation, Issues Opened, Pull Requests etc.
@@ -513,19 +513,19 @@ export const stats = [
   },
   {
     id: "stats-2",
-    title: "Issues Opened",
-    value: "6+",
+    title: "Managed clients",
+    value: "20+",
   },
   {
     id: "stats-3",
-    title: "Pull Requests",
-    value: "6+",
+    title: "Finished projects",
+    value: "100+",
   },
 ];
 
 // List out the extra curricular activities you have induldged in like - student clubs, joining research groups etc.
 export const extraCurricular = [
-  {
+/*   {
     id: 1,
     organisation: "Devfolio",
     title: "UniDAO Lead",
@@ -605,7 +605,7 @@ export const extraCurricular = [
       },
     ],
     logo: ecell,
-  },
+  }, */
 ];
 
 // Links to your social media profiles
@@ -613,19 +613,19 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: AiFillLinkedin,
-    link: "https://www.linkedin.com/in/mittal-parth",
+    link: "https://www.linkedin.com/in/matthiasfellerch/",
   },
   {
     id: "social-media-2",
     icon: AiFillGithub,
-    link: "https://www.github.com/mittal-parth",
+    link: "https://github.com/Lenfey",
   },
   {
     id: "social-media-3",
     icon: AiFillMail,
-    link: "mailto:mittalparth22@gmail.com",
+    link: "mailto:matthiasfellerch@gmail.com",
   },
-  {
+/*   {
     id: "social-media-4",
     icon: AiOutlineTwitter,
     link: "https://www.twitter.com/mittalparth_",
@@ -634,19 +634,19 @@ export const socialMedia = [
     id: "social-media-5",
     icon: AiFillInstagram,
     link: "https://www.instagram.com/mittalparth_",
-  },
+  }, */
 ];
 
 // Your professional summary
 export const aboutMe = {
-    name: "Parth Mittal",
-    githubUsername: 'mittal-parth',
-    tagLine: "MTS-1 @Oracle | ex-Tech Lead @IRIS,NITK | ETHIndia'22,24 Winner | 8x Hackathon Winner | NITK'24 | PBA-5",
-    intro: "Software Developer from India who is either busy improving his craft or pondering over the next big idea."
+    name: "Matthias Feller",
+    githubUsername: 'lenfey',
+    tagLine: "System Engineer | Network Engineer | Cloud Engineer | Support specialist",
+    intro: "Passionate about technology, dreaming about passions, ready to challenge you."
 }
 
 // The maximum number of PRs to be displayed in the Open Source Contributions section.
-export const itemsToFetch = 20;
+export const itemsToFetch = 1;
 
 // Add names of GitHub repos you'd like to display open source contributions from in the 'org/repo' format. 
 export const includedRepos = ['publiclab/plots2', 'zulip/zulip', 'paritytech/polkadot-sdk'];
