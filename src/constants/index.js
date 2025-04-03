@@ -35,7 +35,7 @@ import {
   AiFillMail,
   AiOutlineTwitter,
   AiFillHtml5,
-  AiOutlineGitlab,
+  AiFillSchedule,
 } from "react-icons/ai";
 
 import {
@@ -44,13 +44,13 @@ import {
   SiBootstrap,
   SiReact,
   SiTailwindcss,
-  SiGraphql,
-  SiPython,
-  SiCplusplus,
-  SiC,
+  SiVmware,
+  SiPurescript,
+  SiVeeam,
+  SiSonicwall,
   SiRubyonrails,
   SiJquery,
-  SiVisualstudiocode,
+  SiFortinet,
   SiPostman,
   SiGit,
   SiMysql,
@@ -76,16 +76,51 @@ import {
 
 import {
   FaHardHat,
-  FaRust
+  FaNetworkWired,
+  FaAws,
+  FaMicrosoft,
+  FaLinux,
+  FaPython,
+  FaDocker,
+  FaProjectDiagram,
+  FaResolving,
+  FaAtlassian
 } from "react-icons/fa";
+
+import {
+  GiFlagObjective
+} from "react-icons/gi";
 
 import {
   IoIosNotificationsOutline
 } from "react-icons/io";
 
 import {
-  FaGolang
-} from "react-icons/fa6";
+  GrSystem,
+  GrAruba
+} from "react-icons/Gr";
+
+import {
+  PiMicrosoftOutlookLogoBold,
+  PiMicrosoftTeamsLogoFill
+} from "react-icons/Pi";
+
+import {
+  VscTerminalPowershell,
+  VscDiffRenamed
+} from "react-icons/Vsc";
+
+import {
+  CiSun
+} from "react-icons/ci";
+
+import {
+  RiEnglishInput
+} from "react-icons/ri";
+
+import {
+  MdMonitorHeart
+} from "react-icons/md";
 
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
@@ -336,16 +371,6 @@ export const skills = [
         id: "t-7",
         icon: MdMonitorHeart,
         name: "PRTG",
-      },
-      {
-        id: "t-8",
-        icon: SiNetlify,
-        name: "Netlify",
-      },
-      {
-        id: "t-9",
-        icon: SiVite,
-        name: "ViteJS",
       },
     ],
   },
