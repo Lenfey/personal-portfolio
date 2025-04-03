@@ -5,6 +5,7 @@ import {
   ethglobal,
   polkadot,
   ethindia,
+  CV2024
 } from "../assets";
 
 import {
@@ -69,7 +70,7 @@ import {
   MdMonitorHeart
 } from "react-icons/md";
 
-export const resumeLink = "../assets/CV2024.pdf";
+export const resumeLink = CV2024;
 export const repoLink = "";
 
 export const callToAction = "https://www.linkedin.com/in/matthiasfellerch/";
