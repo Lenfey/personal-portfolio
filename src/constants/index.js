@@ -1,31 +1,10 @@
 import {
   nitk,
-  cluboard,
-  cash_flow,
-  gdsc,
-  iris,
-  ecell,
-  genesis,
-  portfolio,
-  cdc,
-  chargeswap,
-  placeicon,
-  recruitment,
-  huntly,
   oracle,
-  comicify_ai,
-  greentrust,
-  averlon,
-  devfolio,
   pba,
   ethglobal,
   polkadot,
-  lightspeed,
-  dennisivy,
-  manipal,
-  icon,
-  ethforall,
-  ethindia
+  ethindia,
 } from "../assets";
 
 import {
@@ -39,43 +18,15 @@ import {
 } from "react-icons/ai";
 
 import {
-  SiDjango,
-  SiJavascript,
-  SiBootstrap,
-  SiReact,
-  SiTailwindcss,
   SiVmware,
   SiPurescript,
   SiVeeam,
   SiSonicwall,
-  SiRubyonrails,
-  SiJquery,
   SiFortinet,
-  SiPostman,
-  SiGit,
-  SiMysql,
-  SiSolidity,
-  SiNetlify,
-  SiChartdotjs,
-  SiVite,
-  SiArduino,
-  SiWeb3Dotjs,
-  SiIpfs,
-  SiDotnet,
-  SiTwilio,
-  SiFlutter,
-  SiReplit,
-  SiFlask,
-  SiFigma,
-  SiGooglemaps,
-  SiOpenai,
-  SiGooglecloud,
-  SiNextdotjs,
   SiMicrosoftazure
 } from "react-icons/si";
 
 import {
-  FaHardHat,
   FaNetworkWired,
   FaAws,
   FaMicrosoft,
@@ -90,10 +41,6 @@ import {
 import {
   GiFlagObjective
 } from "react-icons/gi";
-
-import {
-  IoIosNotificationsOutline
-} from "react-icons/io";
 
 import {
   GrSystem,
@@ -122,9 +69,7 @@ import {
   MdMonitorHeart
 } from "react-icons/md";
 
-import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
-
-export const resumeLink = "";
+export const resumeLink = "../assets/CV2024.pdf";
 export const repoLink = "";
 
 export const callToAction = "https://www.linkedin.com/in/matthiasfellerch/";
@@ -642,7 +587,7 @@ export const aboutMe = {
     name: "Matthias Feller",
     githubUsername: 'lenfey',
     tagLine: "System Engineer | Network Engineer | Cloud Engineer | Support specialist",
-    intro: "Passionate about technology, dreaming about passions, ready to challenge you."
+    intro: "Passionate about technology, dreaming about passions, ready to challenge your enterprise."
 }
 
 // The maximum number of PRs to be displayed in the Open Source Contributions section.
