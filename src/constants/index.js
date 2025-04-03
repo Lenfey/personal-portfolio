@@ -97,11 +97,11 @@ export const callToAction = "https://www.linkedin.com/in/matthiasfellerch/";
 export const navLinks = [
   {
     id: "skills",
-    title: "Compétences & Expériences",
+    title: "Skills & Experience",
   },
   {
     id: "education",
-    title: "Formations",
+    title: "Education",
   },
   {
     id: "achievements",
@@ -121,7 +121,7 @@ export const navLinks = [
   },
   {
     id: "contactMe",
-    title: "Me contacter",
+    title: "Contact Me",
   },
 ];
 
@@ -130,19 +130,27 @@ export const educationList = [
   {
     id: "education-1",
     icon: nitk,
-    title: "National Institute of Technology Karnataka, Surathkal",
-    degree: "Bachelor of Technology",
-    duration: "December 2020 - May 2024",
-    content1: "Major: Electronics and Communication Engineering",
-    content2: "Minor: Information Technology",
+    title: "HES-SO - Geneva",
+    degree: "Bachelor",
+    duration: "July 2013 - September 2016",
+    content1: "Engineer bachelor in Information Technology",
+    content2: "Major in Communications, Multimedia and Networks",
   },
   {
     id: "education-2",
     icon: pba,
-    title: "Polkadot Blockchain Academy",
+    title: "CFPT - Geneva",
     degree: "",
-    duration: "May 2024 - June 2024",
-    content1: "Graduated with a distinction in the fifth cohort of the Polkadot Blockchain Academy at the National University of Singapore.",
+    duration: "August 2012 - August 2013",
+    content1: "Preparatory class",
+  },
+  {
+    id: "education-3",
+    icon: pba,
+    title: "High School - Annemasse",
+    degree: "",
+    duration: "August 2009 - August 2012",
+    content1: "Scientific baccalaureate",
   },
 ];
 
@@ -151,194 +159,143 @@ export const achievements = [
   {
     id: "a-1",
     icon: ethindia,
-    event: "ETHIndia'24 | India's Largest Ethereum Hackathon",
-    position: "Winner",
-    content1: "True Network's Winner, Polkadot's 1st Runner Up",
-    content2: "Lit Protocol's 2nd Runner Up",
-    content3: "Coinbase Pool Prize, Base Top 10",
-    article: "https://www.linkedin.com/posts/mittal-parth_super-stoked-to-announce-that-our-team-emerged-activity-7274735259621961729-tkq4?utm_source=share&utm_medium=member_desktop",
-    project: "https://devfolio.co/projects/khoj-3336",
-    youtube: "https://www.youtube.com/live/qJ4OCtnvjUY?si=VkcnHEdwJTEEDlMg&t=4718",
+    event: "Microsoft Certified: Azure Administrator Associate",
+    position: "Microsoft",
+    content1: "Managing Entra/Azure infrastructure",
+    content2: "",
+    content3: "",
+    article: "https://learn.microsoft.com/api/credentials/share/en-us/MatthiasFeller-9741/AFF41288817A2443?sharingId",
+    //project: "https://devfolio.co/projects/khoj-3336",
+    //youtube: "https://www.youtube.com/live/qJ4OCtnvjUY?si=VkcnHEdwJTEEDlMg&t=4718",
   },
   {
     id: "a-2",
     icon: ethglobal,
-    event: "ETHIndia'22 | World's Largest Ethereum Hackathon",
-    position: "Winner",
-    content1: "Top 12 winners among 20k+ registrations",
-    content2: "One of Polygon's Best Public Goods",
-    content3: "Best Module on Biconomy SDK",
-    article: "https://www.thehindu.com/news/cities/Mangalore/nitk-iiit-delhi-team-makes-it-to-top-12-winners-in-ethindia-22/article66238923.ece",
-    project: "https://devfolio.co/projects/chargeswap-3527",
-    youtube: "https://youtu.be/9rieTya8Yds?t=3908",
+    event: "SE: Core Client Credential 2020",
+    position: "DELL",
+    content1: "Knowledge of DELL workstation and laptop products",
+    content2: "",
+    content3: "",
+    //article: "https://www.thehindu.com/news/cities/Mangalore/nitk-iiit-delhi-team-makes-it-to-top-12-winners-in-ethindia-22/article66238923.ece",
+    //project: "https://devfolio.co/projects/chargeswap-3527",
+    //youtube: "https://youtu.be/9rieTya8Yds?t=3908",
   },
   {
     id: "a-3",
     icon: polkadot,
-    event: "Polkadot Hackathon: Europe Edition",
-    position: "2nd Runner Up in the ink! Smart Contract Category",
-    content1: "Built GreenTrust offering a novel solution for obtaining certification in organic farming.",
+    event: "SE: Server Credential 2020",
+    position: "DELL",
+    content1: "Knowledge of DELL servers and network products",
     content2: "",
     content3: "",
-    github: "https://github.com/pranav2305/GreenTrust",
-  },
-  {
-    id: "a-4",
-    icon: lightspeed,
-    event: "Warpspeed by Lightspeed",
-    position: "1st Runner Up",
-    content1: "1st Runner Up Overall by Lightspeed among 107 hackers",
-    content2: "Top 3 projects using Replit",
-    content3: "1st Runner Up by Amazon Web Services (AWS)",
-    article: "https://shorturl.at/fhjsT",
-  },
-  {
-    id: "a-5",
-    icon: dennisivy,
-    event: "September Hackathon by Dennis Ivy",
-    position: "Winner",
-    content1: "Rated the best portfolio website among 450+ participants across the globe.",
-    content2: "",
-    content3: "",
-    youtube: "https://www.youtube.com/watch?v=X2473En3h_o&t=5278s",
-    project: "https://parthmittal.netlify.app/",
-  },
-  {
-    id: "a-6",
-    icon: manipal,
-    event: "Manipal Hackathon'22",
-    position: "Consolation Prize",
-    content1: "Top 10 among 500+ teams across India",
-    content2: "Developed a cross-platform mobile application to address the problem of social cohesion.",
-    content3: "",
-    article: "https://shorturl.at/exEIQ",
-  },
-  {
-    id: "a-7",
-    icon: icon,
-    event: "ICON Hyperbuild Hackathon",
-    position: "Honorable Mention",
-    content1: "Honorable Mention among 655 participants across the globe in a 3 month-long online hackathon.",
-    content2: "",
-    content3: "",
-    project: "https://devpost.com/software/green-trust-xj2w6g",
-  },
-  {
-    id: "a-8",
-    icon: ethforall,
-    event: "ETHForAll 2023",
-    position: "Top 3 Superfluid Projects",
-    content1: "Bounty winners among 430 projects in ETHGlobal's largest online hackathon.",
-    content2: "",
-    content3: "",
-    project: "https://devfolio.co/projects/green-trust-ed14",
+    //github: "https://github.com/pranav2305/GreenTrust",
   },
 ];
 
 // Add your software developments skills here for example - programming languages, frameworks etc.
 export const skills = [
   {
-    title: "Programming Languages",
+    title: "Technical skills",
     items: [
       {
         id: "pl-1",
-        icon: DiRuby,
-        name: "Ruby",
+        icon: GrSystem,
+        name: "System",
       },
       {
         id: "pl-2",
-        icon: SiPython,
-        name: "Python",
+        icon: FaNetworkWired,
+        name: "Network",
       },
       {
         id: "pl-3",
-        icon: SiCplusplus,
-        name: "C++",
+        icon: SiVmware,
+        name: "VMWare",
       },
       {
         id: "pl-4",
-        icon: FaGolang,
-        name: "Go",
+        icon: SiMicrosoftazure,
+        name: "Azure",
       },
       {
         id: "pl-5",
-        icon: FaRust,
-        name: "Rust",
+        icon: PiMicrosoftOutlookLogoBold,
+        name: "Microsoft 365",
       },
       {
         id: "pl-6",
-        icon: DiJava,
-        name: "Java",
+        icon: FaAws,
+        name: "AWS",
       },
       {
         id: "pl-7",
-        icon: SiC,
-        name: "C",
+        icon: FaMicrosoft,
+        name: "Windows",
       },
       {
         id: "pl-8",
-        icon: AiFillHtml5,
-        name: "HTML",
+        icon: FaLinux,
+        name: "Linux",
       },
       {
         id: "pl-9",
-        icon: DiCss3,
-        name: "CSS",
+        icon: VscTerminalPowershell,
+        name: "Powershell",
       },
       {
         id: "pl-10",
-        icon: SiJavascript,
-        name: "JavaScript",
+        icon: FaPython,
+        name: "Python",
       },
       {
         id: "pl-11",
-        icon: SiSolidity,
-        name: "Solidity",
+        icon: SiPurescript,
+        name: "Scripting",
+      },
+      {
+        id: "pl-12",
+        icon: FaDocker,
+        name: "Docker",
       }
     ],
   },
   {
-    title: "Frameworks/Libraries",
+    title: "Social skills",
     items: [
       {
         id: "f-1",
-        icon: SiDjango,
-        name: "Django",
+        icon: FaProjectDiagram,
+        name: "Project Management",
       },
       {
         id: "f-2",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails",
+        icon: FaResolving,
+        name: "Incident Resolution",
       },
       {
         id: "f-3",
-        icon: SiReact,
-        name: "ReactJS",
+        icon: GiFlagObjective,
+        name: "Objective axed",
       },
       {
         id: "f-4",
-        icon: SiBootstrap,
-        name: "Bootstrap",
+        icon: CiSun,
+        name: "Adaptation",
       },
       {
         id: "f-5",
-        icon: SiTailwindcss,
-        name: "Tailwind CSS",
+        icon: AiFillSchedule,
+        name: "Organisation",
       },
       {
         id: "f-6",
-        icon: SiJquery,
-        name: "jQuery",
+        icon: VscDiffRenamed,
+        name: "French",
       },
       {
         id: "f-7",
-        icon: SiGraphql,
-        name: "GraphQL",
-      },
-      {
-        id: "f-8",
-        icon: SiDotnet,
-        name: ".NET",
+        icon: RiEnglishInput,
+        name: "English",
       },
     ],
   },
@@ -347,38 +304,38 @@ export const skills = [
     items: [
       {
         id: "t-1",
-        icon: SiMicrosoftazure,
-        name: "Azure",
+        icon: SiVeeam,
+        name: "Veeam",
       },
       {
         id: "t-2",
-        icon: SiMysql,
-        name: "MySQL",
+        icon: PiMicrosoftTeamsLogoFill,
+        name: "Office 365",
       },
       {
         id: "t-3",
-        icon: SiPostman,
-        name: "Postman",
+        icon: GrAruba,
+        name: "Aruba",
       },
       {
         id: "t-4",
-        icon: SiVisualstudiocode,
-        name: "VS Code",
+        icon: SiSonicwall,
+        name: "Sonicwall",
       },
       {
         id: "t-5",
-        icon: SiGit,
-        name: "Git",
+        icon: SiFortinet,
+        name: "Fortinet",
       },
       {
         id: "t-6",
-        icon: AiFillGithub,
-        name: "GitHub",
+        icon: FaAtlassian,
+        name: "Atlassian",
       },
       {
         id: "t-7",
-        icon: AiOutlineGitlab,
-        name: "Gitlab",
+        icon: MdMonitorHeart,
+        name: "PRTG",
       },
       {
         id: "t-8",
@@ -397,108 +354,22 @@ export const skills = [
 // Add your current/past professional work experience here
 export const experiences = [
   {
-    organisation: "Oracle, India",
+    organisation: "Silicom",
     logo: oracle,
-    link: "https://www.oracle.com/in/",
+    link: "https://silicom.ch",
     positions: [
       {
-        title: "Member of Technical Staff - 1",
-        duration: "Jul 2024 - Present",
+        title: "Network & System Administrator",
+        duration: "April 2018 - Present",
         content: [
           {
-            text: "Working in the Database as a Service Control Plane team for Oracle Cloud Infrastructure.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Member of Technical Staff Intern",
-        duration: "May 2023 - Jul 2023",
-        content: [
-          {
-            text: "Worked with the Exadata Cloud@Customer team in the Database Unit.",
-            link: "",
-          },
-          {
-            text: "Wrote APIs in Java to help gracefully migrate a running ExaC@C infrastructure to a new region in the case of a region failure",
-            link: ""
-          }
-        ],
-      },
-    ],
-  },
-  {
-    organisation: "Averlon",
-    logo: averlon,
-    link: "https://averlon.ai/",
-    positions: [
-      {
-        title: "Software Developer Intern",
-        duration: "Sept 2023 - Feb 2024",
-        content: [
-          {
-            text: "Added support for the discoverability of Microsoft Azure assets utilising Go and Gremlin.",
-            link: ""
-          },
-          {
-            text: "Extended support for Azure for reachability analysis of assets for cloud security posture management.",
-            link: ""
-          }
-        ],
-      },
-    ],
-  },
-  {
-    organisation: "IRIS, NITK",
-    logo: iris,
-    link: "https://iris.nitk.ac.in/about_us",
-    positions: [
-      {
-        title: "Tech Lead",
-        duration: "Apr 2023 - Apr 2024",
-        content: [
-          {
-            text: "Led a team of 40+ students in digitizing administrative, academic and alumni-related work.",
-            link: "",
-          },
-          {
-            text: "Managed all phases of Software Development Life Cycle (SDLC) for 15+ modules.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Lead",
-        duration: "Apr 2022 - Present",
-        content: [
-          {
-            text: "Managed a team of 6 student developers while also overlooking multiple modules.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Developer",
-        duration: "Nov 2021 - Apr 2022",
-        content: [
-          {
-            text: "Added Conditional Fields support to the Forms Module.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Developer Intern",
-        duration: "Jun 2021 - Oct 2021",
-        content: [
-          {
-            text: "Developed a multi-role approval flow system to facilitate data collection and display on the Institute's Department Websites.",
+            text: "Network, system and cloud engineer in Geneva",
             link: "",
           },
         ],
       },
     ],
-  }
+  },
 ];
 
 // Add information about all the projects to be listed out in your portfolio
