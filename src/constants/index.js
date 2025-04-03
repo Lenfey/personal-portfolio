@@ -98,17 +98,17 @@ import {
 import {
   GrSystem,
   GrAruba
-} from "react-icons/Gr";
+} from "react-icons/gr";
 
 import {
   PiMicrosoftOutlookLogoBold,
   PiMicrosoftTeamsLogoFill
-} from "react-icons/Pi";
+} from "react-icons/pi";
 
 import {
   VscTerminalPowershell,
   VscDiffRenamed
-} from "react-icons/Vsc";
+} from "react-icons/vsc";
 
 import {
   CiSun
