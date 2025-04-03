@@ -398,9 +398,9 @@ export const experiences = [
 ];
 
 // Add information about all the projects to be listed out in your portfolio
-/* export const projects = [
+export const projects = [
   {
-    id: "project-1",
+/*     id: "project-1",
     title: "Comicify.ai",
     github: "https://github.com/ayush4345/Comicify.ai",
     link: "https://comicify-ai.vercel.app/",
@@ -741,9 +741,9 @@ export const experiences = [
         icon: AiFillHtml5,
         name: "HTML"
       },
-    ],
+    ], */
   },
-]; */
+];
 
 // Add links to blogs here
 export const blogPosts = [
