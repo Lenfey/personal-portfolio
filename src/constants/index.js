@@ -398,7 +398,7 @@ export const experiences = [
 ];
 
 // Add information about all the projects to be listed out in your portfolio
-export const projects = [
+/* export const projects = [
   {
     id: "project-1",
     title: "Comicify.ai",
@@ -743,7 +743,7 @@ export const projects = [
       },
     ],
   },
-];
+]; */
 
 // Add links to blogs here
 export const blogPosts = [
