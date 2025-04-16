@@ -335,7 +335,7 @@ export const experiences = [
         duration: "April 2018 - Present",
         content: [
           {
-            text: "Network, system and cloud engineer in Geneva           - Infrastructure maintenance (Switch, servers, VMWare virtualization, Hyper-V)           - Data storage, hyper-converged systems (Simplivity, DFS, Veeam replication)           - Coordination between services (network,dev, security)           - Monitoring (PRTG, OpsGenie)           - Load Balancing (Azure Gateway, Microsoft RDS)           - Microsoft Office 365 Administration (SharePoint, Teams, Exchange Online)           - System Administration (Active Directory, Veeam, Domain Controler, GPO, WSUS)           - Network administrator (Firewall, VLAN, Switch)           - Scripting (Bash, Powershell, Python)           - Support 2nd level, 3rd level           - Project management for small and medium business",
+            text: "Network, system and cloud engineer in Geneva%n- Infrastructure maintenance (Switch, servers, VMWare virtualization, Hyper-V)%n- Data storage, hyper-converged systems (Simplivity, DFS, Veeam replication)%n- Coordination between services (network,dev, security)%n- Monitoring (PRTG, OpsGenie)%n- Load Balancing (Azure Gateway, Microsoft RDS)%n- Microsoft Office 365 Administration (SharePoint, Teams, Exchange Online)%n- System Administration (Active Directory, Veeam, Domain Controler, GPO, WSUS)%n- Network administrator (Firewall, VLAN, Switch)%n- Scripting (Bash, Powershell, Python)%n- Support 2nd level, 3rd level%n- Project management for small and medium business",
             link: "",
           },
         ],
