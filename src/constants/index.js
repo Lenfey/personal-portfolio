@@ -5,6 +5,7 @@ import {
   ethglobal,
   polkadot,
   ethindia,
+  silicom
 } from "../assets";
 
 import {
@@ -23,7 +24,8 @@ import {
   SiVeeam,
   SiSonicwall,
   SiFortinet,
-  SiMicrosoftazure
+  SiMicrosoftazure,
+  SiDell,
 } from "react-icons/si";
 
 import {
@@ -138,7 +140,7 @@ export const educationList = [
 export const achievements = [
   {
     id: "a-1",
-    icon: ethindia,
+    icon: SiMicrosoftazure,
     event: "Microsoft Certified: Azure Administrator Associate",
     position: "Microsoft",
     content1: "Managing Entra/Azure infrastructure",
@@ -150,7 +152,7 @@ export const achievements = [
   },
   {
     id: "a-2",
-    icon: ethglobal,
+    icon: SiDell,
     event: "SE: Core Client Credential 2020",
     position: "DELL",
     content1: "Knowledge of DELL workstation and laptop products",
@@ -162,7 +164,7 @@ export const achievements = [
   },
   {
     id: "a-3",
-    icon: polkadot,
+    icon: SiDell,
     event: "SE: Server Credential 2020",
     position: "DELL",
     content1: "Knowledge of DELL servers and network products",
@@ -325,7 +327,7 @@ export const skills = [
 export const experiences = [
   {
     organisation: "Silicom",
-    logo: oracle,
+    logo: silicom,
     link: "https://silicom.ch",
     positions: [
       {
@@ -333,8 +335,8 @@ export const experiences = [
         duration: "April 2018 - Present",
         content: [
           {
-            text: "Network, system and cloud engineer in Geneva",
-            link: "",
+            text: "Network, system and cloud engineer in Geneva\n- Infrastructure maintenance (Switch, servers, VMWare virtualization, Hyper-V)\n- Data storage, hyper-converged systems (Simplivity, DFS, Veeam replication)\n- Coordination between services (network,dev, security)\n- Monitoring (PRTG, OpsGenie)\n- Load Balancing (Azure Gateway, Microsoft RDS)\n- Microsoft Office 365 Administration (SharePoint, Teams, Exchange Online)\n- System Administration (Active Directory, Veeam, Domain Controler, GPO, WSUS)\n- Network administrator (Firewall, VLAN, Switch)\n- Scripting (Bash, Powershell, Python)\n- Support 2nd level, 3rd level\n- Project management for small and medium business",
+            link: "https://silicom.ch/",
           },
         ],
       },
