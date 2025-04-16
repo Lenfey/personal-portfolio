@@ -30,6 +30,7 @@ import manipal from "./manipal.png";
 import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
 import ethindia from "./ethindia.png";
+import silicom from "./silicom.png";
 
 export {
   menu,
