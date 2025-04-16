@@ -90,7 +90,7 @@ const ExperienceCard = (props) => {
             {position.content.map((info, index) => (
               <Content key={index} index={index} {...info} />
             ))}
-            <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400 white-space:pre-line"></p>
+            <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400 white-space:pre-wrap"></p>
           </li>
         ))}
       </ol>
