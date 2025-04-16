@@ -63,5 +63,6 @@ export {
   manipal,
   icon,
   ethforall,
-  ethindia
+  ethindia,
+  silicom
 };
