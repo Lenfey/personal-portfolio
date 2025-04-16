@@ -5,7 +5,7 @@ import {
   ethglobal,
   polkadot,
   ethindia,
-  silicom,
+  silicom
 } from "../assets";
 
 import {
@@ -15,7 +15,7 @@ import {
   AiFillMail,
   AiOutlineTwitter,
   AiFillHtml5,
-  AiFillSchedule,
+  AiFillSchedule
 } from "react-icons/ai";
 
 import {
@@ -25,7 +25,7 @@ import {
   SiSonicwall,
   SiFortinet,
   SiMicrosoftazure,
-  SiDell,
+  SiDell
 } from "react-icons/si";
 
 import {
@@ -335,8 +335,8 @@ export const experiences = [
         duration: "April 2018 - Present",
         content: [
           {
-            //text: "Network, system and cloud engineer in Geneva\n- Infrastructure maintenance (Switch, servers, VMWare virtualization, Hyper-V)\n- Data storage, hyper-converged systems (Simplivity, DFS, Veeam replication)\n- Coordination between services (network,dev, security)\n- Monitoring (PRTG, OpsGenie)\n- Load Balancing (Azure Gateway, Microsoft RDS)\n- Microsoft Office 365 Administration (SharePoint, Teams, Exchange Online)\n- System Administration (Active Directory, Veeam, Domain Controler, GPO, WSUS)\n- Network administrator (Firewall, VLAN, Switch)\n- Scripting (Bash, Powershell, Python)\n- Support 2nd level, 3rd level\n- Project management for small and medium business",
-            link: "https://silicom.ch/",
+            text: "Network, system and cloud engineer in Geneva\n- Infrastructure maintenance (Switch, servers, VMWare virtualization, Hyper-V)\n- Data storage, hyper-converged systems (Simplivity, DFS, Veeam replication)\n- Coordination between services (network,dev, security)\n- Monitoring (PRTG, OpsGenie)\n- Load Balancing (Azure Gateway, Microsoft RDS)\n- Microsoft Office 365 Administration (SharePoint, Teams, Exchange Online)\n- System Administration (Active Directory, Veeam, Domain Controler, GPO, WSUS)\n- Network administrator (Firewall, VLAN, Switch)\n- Scripting (Bash, Powershell, Python)\n- Support 2nd level, 3rd level\n- Project management for small and medium business",
+            link: "",
           },
         ],
       },
