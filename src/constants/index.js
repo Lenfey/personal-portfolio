@@ -5,7 +5,7 @@ import {
   ethglobal,
   polkadot,
   ethindia,
-  silicom
+  silicom,
 } from "../assets";
 
 import {
