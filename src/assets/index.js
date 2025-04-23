@@ -32,6 +32,9 @@ import ethforall from "./ethforall.png";
 import ethindia from "./ethindia.png";
 import silicom from "./silicom.png";
 import hepia from "./hepia.jpg";
+import highschool from "./highschool.png";
+import azure from "./azure.png";
+import dell from "./Dell.png";
 
 export {
   menu,
@@ -67,5 +70,8 @@ export {
   ethforall,
   ethindia,
   silicom,
-  hepia
+  hepia,
+  highschool,
+  azure,
+  dell
 };

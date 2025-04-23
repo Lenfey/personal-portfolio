@@ -1,21 +1,16 @@
 import {
-  nitk,
-  oracle,
   pba,
-  ethglobal,
-  polkadot,
-  ethindia,
   silicom,
-  hepia
+  hepia,
+  highschool,
+  azure,
+  dell
 } from "../assets";
 
 import {
   AiFillGithub,
-  AiFillInstagram,
   AiFillLinkedin,
   AiFillMail,
-  AiOutlineTwitter,
-  AiFillHtml5,
   AiFillSchedule
 } from "react-icons/ai";
 
@@ -25,8 +20,7 @@ import {
   SiVeeam,
   SiSonicwall,
   SiFortinet,
-  SiMicrosoftazure,
-  SiDell
+  SiMicrosoftazure
 } from "react-icons/si";
 
 import {
@@ -38,8 +32,7 @@ import {
   FaDocker,
   FaProjectDiagram,
   FaResolving,
-  FaAtlassian,
-  FaSchool
+  FaAtlassian
 } from "react-icons/fa";
 
 import {
@@ -130,7 +123,7 @@ export const educationList = [
   },
   {
     id: "education-3",
-    icon: FaSchool,
+    icon: highschool,
     title: "High School - Annemasse",
     degree: "",
     duration: "August 2009 - August 2012",
@@ -142,7 +135,7 @@ export const educationList = [
 export const achievements = [
   {
     id: "a-1",
-    icon: pba,
+    icon: azure,
     event: "Microsoft Certified: Azure Administrator Associate",
     position: "Microsoft",
     content1: "Managing Entra/Azure infrastructure",
@@ -154,7 +147,7 @@ export const achievements = [
   },
   {
     id: "a-2",
-    icon: pba,
+    icon: dell,
     event: "SE: Core Client Credential 2020",
     position: "DELL",
     content1: "Knowledge of DELL workstation and laptop products",
@@ -166,7 +159,7 @@ export const achievements = [
   },
   {
     id: "a-3",
-    icon: pba,
+    icon: dell,
     event: "SE: Server Credential 2020",
     position: "DELL",
     content1: "Knowledge of DELL servers and network products",
