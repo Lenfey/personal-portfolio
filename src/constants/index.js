@@ -5,7 +5,8 @@ import {
   ethglobal,
   polkadot,
   ethindia,
-  silicom
+  silicom,
+  hepia
 } from "../assets";
 
 import {
@@ -37,7 +38,8 @@ import {
   FaDocker,
   FaProjectDiagram,
   FaResolving,
-  FaAtlassian
+  FaAtlassian,
+  FaSchool
 } from "react-icons/fa";
 
 import {
@@ -111,7 +113,7 @@ export const navLinks = [
 export const educationList = [
   {
     id: "education-1",
-    icon: nitk,
+    icon: hepia,
     title: "HES-SO - Geneva",
     degree: "Bachelor",
     duration: "July 2013 - September 2016",
@@ -120,7 +122,7 @@ export const educationList = [
   },
   {
     id: "education-2",
-    icon: pba,
+    icon: hepia,
     title: "CFPT - Geneva",
     degree: "",
     duration: "August 2012 - August 2013",
@@ -128,7 +130,7 @@ export const educationList = [
   },
   {
     id: "education-3",
-    icon: pba,
+    icon: FaSchool,
     title: "High School - Annemasse",
     degree: "",
     duration: "August 2009 - August 2012",
