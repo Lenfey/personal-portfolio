@@ -4,7 +4,7 @@ import { socialMedia, aboutMe } from "../constants";
 import { profilePic } from "../assets";
 import { layout } from "../style";
 import { resumeLink, repoLink } from "../constants";
-import { AiFillGithub } from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => (
   <footer id="contactMe" className="bg-gray-900 sm:px-16 px-6">
@@ -43,7 +43,7 @@ const Footer = () => (
             <Button
               styles="mt-10 inline-flex items-center justify-center"
               text="Star"
-              icon={AiFillGithub}
+              icon={FaLinkedinIn}
             />
           </a>
         </div>
@@ -52,14 +52,14 @@ const Footer = () => (
       <div className="md:ml-auto mt-10 md:mt-0">
         <img
           src={profilePic}
-          alt="Parth Mittal"
+          alt="Matthias Feller"
           className="w-[200px] h-[200px] border-2 border-teal-200 relative z-[5] rounded-full"
         />
       </div>
     </div>
     <div className="text-center font-poppins font-normal text-dimWhite text-xs sm:text-sm pb-4">
       <p>
-        Made with 💙 by Parth Mittal & the Open Source Community
+        Made with 💙 by Matthias Feller, from Parth Mittal's template & the Open Source Community
       </p>
     </div>
   </footer>

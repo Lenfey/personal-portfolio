@@ -72,7 +72,7 @@ import {
 } from "react-icons/md";
 
 export const resumeLink = "https://1drv.ms/b/c/aaf3a3050c8e0167/EWnT5lNZ-7dDoYO16V76aQABIyAgxP-C0kHW7NQxnrj4kQ?e=3FJ1IL";
-export const repoLink = "";
+export const repoLink = "https://www.linkedin.com/in/matthiasfellerch/";
 
 export const callToAction = "https://www.linkedin.com/in/matthiasfellerch/";
 
