@@ -90,7 +90,7 @@ const ExperienceCard = (props) => {
             {position.content.map((info, index) => (
               <Content key={index} index={index} {...info} />
             ))}
-            <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400 white-space:pre-line font-family:inherit"></p>
+            <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400 white-space:pre-line"></p>
           </li>
         ))}
       </ol>
@@ -115,9 +115,8 @@ const SkillsAndExperience = () => {
             <SkillCard key={index} index={index} {...skill} />
           ))}
         </motion.div>
-
         {/* Experience */}
-        <motion.div className="flex flex-1 items-center justify-start flex-col">
+        <motion.div className="flex flex-1 items-center justify-start flex-col white-space: pre-wrap">
           {experiences.map((exp, index) => (
             <ExperienceCard key={index} index={index} {...exp} />
           ))}

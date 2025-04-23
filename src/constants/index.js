@@ -589,7 +589,7 @@ export const aboutMe = {
     name: "Matthias Feller",
     githubUsername: 'lenfey',
     tagLine: "System Engineer | Network Engineer | Cloud Engineer | Support specialist",
-    intro: "Passionate about technology, dreaming about passions, ready to challenge your enterprise."
+    intro: "Passionate about technology, dreaming about passions, ready for your challenge."
 }
 
 // The maximum number of PRs to be displayed in the Open Source Contributions section.
