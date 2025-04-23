@@ -77,6 +77,7 @@ const Project = (props) => {
 const Projects = () => {
   return (
     <h1></h1>
+    // SECTION A RAJOUTER SI ON VEUT METTRE DES PROJETS
 /*     <section id="projects">
       <h1 className="flex-1 font-poppins font-semibold ss:text-[55px] text-[45px] text-white ss:leading-[80px] leading-[80px]">
         Projects

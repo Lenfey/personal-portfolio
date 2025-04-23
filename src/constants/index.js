@@ -89,7 +89,7 @@ export const navLinks = [
     id: "achievements",
     title: "Certifications",
   },
-  {
+/*   {
     id: "projects",
     title: "Projects",
   },
@@ -100,7 +100,7 @@ export const navLinks = [
   {
     id: "extraCurricular",
     title: "Extra Curricular",
-  },
+  }, */
   {
     id: "contactMe",
     title: "Contact Me",

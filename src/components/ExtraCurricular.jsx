@@ -61,7 +61,9 @@ const ExtraCurricularCard = (props) => {
 
 const ExtraCurricular = () => {
   return (
-    <section id="extraCurricular">
+    <h1></h1>
+    // A RAJOUTER SI BESOIN
+/*     <section id="extraCurricular">
       <h1 className="flex-1 font-poppins font-semibold ss:text-[55px] text-[45px] text-white ss:leading-[80px] leading-[80px]">
         Extra Curricular
       </h1>
@@ -75,7 +77,7 @@ const ExtraCurricular = () => {
           ))}
         </div>
       </div>
-    </section>
+    </section> */
   );
 };
 
