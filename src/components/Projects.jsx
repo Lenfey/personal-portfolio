@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const Project = (props) => {
   return (
-    <motion.div
+/*     <motion.div
       className="px-12 py-8 transition-colors duration-300 transform border rounded-xl hover:border-transparent group dark:border-gray-700 dark:hover:border-transparent feature-card"
       initial={{ y: -30, opacity: 0 }}
       whileInView={{ y: 0, opacity: 1 }}
@@ -70,13 +70,13 @@ const Project = (props) => {
           ""
         )}
       </div>
-    </motion.div>
+    </motion.div> */
   );
 };
 
 const Projects = () => {
   return (
-    <section id="projects">
+/*     <section id="projects">
       <h1 className="flex-1 font-poppins font-semibold ss:text-[55px] text-[45px] text-white ss:leading-[80px] leading-[80px]">
         Projects
       </h1>
@@ -88,7 +88,7 @@ const Projects = () => {
           ))}
         </div>
       </div>
-    </section>
+    </section> */
   );
 };
 
