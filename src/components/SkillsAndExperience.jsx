@@ -62,17 +62,17 @@ const ExperienceCard = (props) => {
     whileInView={{ y: [-20, 0], opacity: [0, 1] }}
     transition={{ duration: 1 }}
     >
-      <div className="flex flex-row items-center mb-6 white-space:pre-line">
+      <div className="flex flex-row items-center mb-6">
         <img
           src={props.logo}
           alt={props.organisation}
-          className="w-[52px] h-[52px] rounded-full z-[2] white-space:pre-line"
+          className="w-[52px] h-[52px] rounded-full z-[2]"
         />
-        <h4 className="font-poppins font-semibold text-[20px] text-gradient leading-[32px] ml-2 white-space:pre-line">
+        <h4 className="font-poppins font-semibold text-[20px] text-gradient leading-[32px] ml-2">
           {props.organisation}
         </h4>
       </div>
-      <ol className="relative border-l border-gray-200 dark:border-gray-700 ml-6 white-space:pre-line">
+      <ol className="relative border-l border-gray-200 dark:border-gray-700 ml-6">
         {props.positions.map((position, index) => (
           <li
             key={index}
@@ -80,11 +80,11 @@ const ExperienceCard = (props) => {
               index === props.positions.length - 1 ? "mb-0" : "mb-4"
             } ml-4`}
           >
-            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700 white-space:pre-line"></div>
-            <h3 className="text-lg font-semibold text-gray-200 dark:text-white white-space:pre-line">
+            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <h3 className="text-lg font-semibold text-gray-200 dark:text-white">
               {position.title}
             </h3>
-            <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 white-space:pre-line">
+            <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               {position.duration}
             </time>
             {position.content.map((info, index) => (
@@ -100,8 +100,8 @@ const ExperienceCard = (props) => {
 
 const SkillsAndExperience = () => {
   return (
-    <section id="skills" className="mb-12 white-space:pre-line">
-      <h1 className="flex-1 font-poppins font-semibold ss:text-[55px] text-[45px] text-white ss:leading-[80px] leading-[80px] white-space:pre-line">
+    <section id="skills" className="mb-12">
+      <h1 className="flex-1 font-poppins font-semibold ss:text-[55px] text-[45px] text-white ss:leading-[80px] leading-[80px]">
         Skills & Experience
       </h1>
       <div
@@ -116,7 +116,7 @@ const SkillsAndExperience = () => {
           ))}
         </motion.div>
         {/* Experience */}
-        <motion.div className="flex flex-1 items-center justify-start flex-col white-space:pre-line">
+        <motion.div className="flex flex-1 items-center justify-start flex-col">
           {experiences.map((exp, index) => (
             <ExperienceCard key={index} index={index} {...exp} />
           ))}

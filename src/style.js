@@ -19,14 +19,14 @@ const styles = {
 };
 
 export const layout = {
-  section: `flex md:flex-row flex-col ${styles.paddingY}`,
+  section: `flex md:flex-row flex-col white-space:pre-wrap ${styles.paddingY}`,
   sectionReverse: `flex md:flex-row flex-col-reverse ${styles.paddingY}  `,
 
-  sectionImgReverse: `flex-1 flex ${styles.flexCenter} md:mr-10 mr-0 md:mt-0 mt-10 relative`,
-  sectionImg: `flex-1 flex ${styles.flexCenter} md:ml-10 ml-0 md:mt-0 mt-10 relative`,
-  sectionImgReverseEnd: `flex-1 flex ${styles.flexEnd} md:mr-12 ml-4 mb-4 md:mb-0 md:mt-0 mt-10 relative`,
+  sectionImgReverse: `flex-1 flex ${styles.flexCenter} md:mr-10 mr-0 md:mt-0 mt-10 relative white-space:pre-wrap`,
+  sectionImg: `flex-1 flex ${styles.flexCenter} md:ml-10 ml-0 md:mt-0 mt-10 relative white-space:pre-wrap`,
+  sectionImgReverseEnd: `flex-1 flex ${styles.flexEnd} md:mr-12 ml-4 mb-4 md:mb-0 md:mt-0 mt-10 relative white-space:pre-wrap`,
 
-  sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
+  sectionInfo: `flex-1 ${styles.flexStart} flex-col white-space:pre-wrap`,
 };
 
 export default styles;
