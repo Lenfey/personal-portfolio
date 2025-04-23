@@ -5,6 +5,7 @@ import { profilePic } from "../assets";
 import { layout } from "../style";
 import { resumeLink, repoLink } from "../constants";
 import { AiFillGithub } from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => (
   <footer id="contactMe" className="bg-gray-900 sm:px-16 px-6">
@@ -43,7 +44,7 @@ const Footer = () => (
             <Button
               styles="mt-10 inline-flex items-center justify-center"
               text="Star"
-              icon={AiFillGithub}
+              icon={FaLinkedinIn}
             />
           </a>
         </div>
