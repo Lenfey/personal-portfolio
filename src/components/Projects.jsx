@@ -76,7 +76,8 @@ const Project = (props) => {
 
 const Projects = () => {
   return (
-    <section id="projects">
+    <h1></h1>
+/*     <section id="projects">
       <h1 className="flex-1 font-poppins font-semibold ss:text-[55px] text-[45px] text-white ss:leading-[80px] leading-[80px]">
         Projects
       </h1>
@@ -88,7 +89,7 @@ const Projects = () => {
           ))}
         </div>
       </div>
-    </section>
+    </section> */
   );
 };
 
