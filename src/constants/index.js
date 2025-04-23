@@ -136,7 +136,7 @@ export const achievements = [
   {
     id: "a-1",
     icon: azure,
-    event: "Microsoft Certified: Azure Administrator Associate",
+    event: "AZ-104 - Microsoft Certified: Azure Administrator Associate",
     position: "Microsoft",
     content1: "Managing Entra/Azure infrastructure",
     content2: "",
