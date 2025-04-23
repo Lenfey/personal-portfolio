@@ -31,6 +31,7 @@ import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
 import ethindia from "./ethindia.png";
 import silicom from "./silicom.png";
+import hepia from "./hepia.jpg";
 
 export {
   menu,
@@ -65,5 +66,6 @@ export {
   icon,
   ethforall,
   ethindia,
-  silicom
+  silicom,
+  hepia
 };
