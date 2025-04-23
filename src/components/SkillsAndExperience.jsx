@@ -100,8 +100,8 @@ const ExperienceCard = (props) => {
 
 const SkillsAndExperience = () => {
   return (
-    <section id="skills" className="mb-12">
-      <h1 className="flex-1 font-poppins font-semibold ss:text-[55px] text-[45px] text-white ss:leading-[80px] leading-[80px]">
+    <section id="skills" className="mb-12 white-space:pre-wrap">
+      <h1 className="flex-1 font-poppins font-semibold ss:text-[55px] text-[45px] text-white ss:leading-[80px] leading-[80px] white-space:pre-wrap">
         Skills & Experience
       </h1>
       <div
@@ -116,7 +116,7 @@ const SkillsAndExperience = () => {
           ))}
         </motion.div>
         {/* Experience */}
-        <motion.div className="flex flex-1 items-center justify-start flex-col white-space: pre-wrap">
+        <motion.div className="flex flex-1 items-center justify-start flex-col">
           {experiences.map((exp, index) => (
             <ExperienceCard key={index} index={index} {...exp} />
           ))}
