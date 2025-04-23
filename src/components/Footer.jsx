@@ -43,7 +43,7 @@ const Footer = () => (
           <a href={repoLink} target="_blank">
             <Button
               styles="mt-10 inline-flex items-center justify-center"
-              text="Star"
+              text="Contact"
               icon={FaLinkedinIn}
             />
           </a>
