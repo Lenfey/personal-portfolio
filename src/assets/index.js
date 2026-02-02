@@ -75,5 +75,5 @@ export {
   highschool,
   azure,
   dell,
-  ocsin,
+  ocsin
 };

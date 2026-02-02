@@ -320,23 +320,23 @@ export const skills = [
 
 // Add your current/past professional work experience here
 export const experiences = [
-  {
-    organisation: "OCSIN",
-    logo: ocsin,
-    link: "https://www.ge.ch/organisation/office-cantonal-systemes-information-du-numerique-ocsin",
-    positions: [
-      {
-        title: "IT Engineer - 2",
-        duration: "November  2025 - Present",
-        content: [
-          {
-            text: `Workspace engineer for the Geneva canton.\n\t- Computer governance\n\t- SCCM governance\n\t-Workspace ONE governance\n\t- IT Evolution project\n\t- Project management\n\t- Audit`,
-            link: "",
-          },
-        ],
-      },
-    ],
-  },
+  //{
+  //  organisation: "OCSIN",
+  //  logo: ocsin,
+  //  link: "https://www.ge.ch/organisation/office-cantonal-systemes-information-du-numerique-ocsin",
+  //  positions: [
+  //    {
+  //      title: "IT Engineer - 2",
+  //      duration: "November  2025 - Present",
+  //      content: [
+  //        {
+  //          text: `Workspace engineer for the Geneva canton.\n\t- Computer governance\n\t- SCCM governance\n\t-Workspace ONE governance\n\t- IT Evolution project\n\t- Project management\n\t- Audit`,
+  //          link: "",
+  //        },
+  //      ],
+  //    },
+  //  ],
+  //},
   {
     organisation: "Silicom",
     logo: silicom,
