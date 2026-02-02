@@ -322,7 +322,7 @@ export const skills = [
 // Add your current/past professional work experience here
 export const experiences = [
   {
-    organisation: "OCSIN",
+    organisation: "Etat de Genève - OCSIN",
     logo: ocsin,
     link: "https://www.ge.ch/organisation/office-cantonal-systemes-information-du-numerique-ocsin",
     positions: [
