@@ -73,5 +73,6 @@ export {
   hepia,
   highschool,
   azure,
-  dell
+  dell,
+  ocsin
 };

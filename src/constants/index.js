@@ -321,13 +321,30 @@ export const skills = [
 // Add your current/past professional work experience here
 export const experiences = [
   {
+    organisation: "OCSIN",
+    logo: ocsin,
+    link: "https://www.ge.ch/organisation/office-cantonal-systemes-information-du-numerique-ocsin",
+    positions: [
+      {
+        title: "IT Engineer - 2",
+        duration: "November  2025 - Present",
+        content: [
+          {
+            text: `Workspace engineer for the Geneva canton.\n\t- Computer governance\n\t- SCCM governance\n\t-Workspace ONE governance\n\t- IT Evolution project\n\t- Project management\n\t- Audit`,
+            link: "",
+          },
+        ],
+      },
+    ],
+  },
+  {
     organisation: "Silicom",
     logo: silicom,
     link: "https://silicom.ch",
     positions: [
       {
         title: "Network & System Administrator",
-        duration: "April 2018 - Present",
+        duration: "April 2018 - November 2025",
         content: [
           {
             text: `Network, system and cloud engineer in Geneva\n\t- Infrastructure maintenance (Switch, servers, VMWare virtualization, Hyper-V)\n\t- Data storage, hyper-converged systems (Simplivity, DFS, Veeam replication)\n\t- Coordination between services (network,dev, security)\n\t- Monitoring (PRTG, OpsGenie)\n\t- Load Balancing (Azure Gateway, Microsoft RDS)\n\t- Microsoft Office 365 Administration (SharePoint, Teams, Exchange Online)\n\t- System Administration (Active Directory, Veeam, Domain Controler, GPO, WSUS)\n\t- Network administrator (Firewall, VLAN, Switch)\n\t- Scripting (Bash, Powershell, Python)\n\t- Support 2nd level, 3rd level\n\t- Project management for small and medium business`,
