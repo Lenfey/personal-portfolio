@@ -35,6 +35,7 @@ import hepia from "./hepia.jpg";
 import highschool from "./highschool.png";
 import azure from "./azure.png";
 import dell from "./Dell.png";
+import ocsin from "./ocsin.png";
 
 export {
   menu,
@@ -74,5 +75,5 @@ export {
   highschool,
   azure,
   dell,
-  ocsin
+  ocsin,
 };
